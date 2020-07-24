@@ -53,12 +53,12 @@ const HomePage = () => {
           </div>
           <div className="lg:mx-64 sm:mx-12 mx-4">
             {expData.map((exp, key) => (
-              <div className="flex flex-col my-12">
+              <div className="flex flex-col my-12" key={key}>
                 <div className="flex flex-row text-2xl text-primary-700 font-serif font-semibold">
                   {exp.company + " // " + exp.title}
                 </div>
-                <div className="mx-12 my-3 text-gray-800">{exp.date}</div>
-                <div className="mx-12 leading-loose text-gray-800">
+                <div className="sm:mx-12 my-3 text-gray-800">{exp.date}</div>
+                <div className="sm:mx-12 leading-loose text-gray-800">
                   {exp.description}
                 </div>
               </div>

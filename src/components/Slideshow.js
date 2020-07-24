@@ -7,11 +7,10 @@ const Slideshow = ({ images = [] }) => {
   return (
     <Carousel className="">
       {images.map((image, key) => (
-        <div>
+        <div key={key}>
           <img
             className=""
             alt={"carousel for " + image}
-            key={key}
             src={"/images/" + image}
           />
         </div>

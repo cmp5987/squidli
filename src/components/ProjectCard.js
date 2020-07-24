@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
   return (
     <Link to={"/project/" + project.name}>
       <div className="flex flex-row hover:shadow-2xl rounded-lg my-2 shadow cursor-pointer">
-        <div className="flex-shrink-0 sm:32 flex flex-col justify-center items-center p-8 bg-gray-100">
+        <div className="flex-shrink-0 sm:32 sm:flex flex-col justify-center items-center sm:p-8 bg-gray-100 hiden">
           <img
             className="rounded sm:w-32 w-0"
             alt={"icon for " + project.name}
@@ -20,7 +20,7 @@ const ProjectCard = ({ project }) => {
           <div className="flex flex-row my-4 font-semibold flex-wrap">
             {project.tags.map((tag, key) => (
               <div
-                className="mr-2 py-1 px-2 bg-gray-200 rounded-lg shadow"
+                className="mr-2 py-1 px-2 bg-gray-200 rounded-lg shadow my-1"
                 key={key}
               >
                 {tag}

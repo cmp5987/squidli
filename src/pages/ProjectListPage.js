@@ -10,7 +10,7 @@ const ProjectListPage = () => {
   return (
     <React.Fragment>
       <div className="">
-        <div className="mx-32 my-12">
+        <div className="sm:mx-32 mx-8 my-12">
           <h1 className="text-primary-800 font-mono text-3xl font-semibold">
             Projects
           </h1>

@@ -3,7 +3,7 @@ import Slideshow from "../components/Slideshow";
 
 const ColumnProject = ({ component }) => {
   return (
-    <div className="font-serif">
+    <div className="font-serif mb-12">
       <h2 className="text-2xl text-gray-800 mb-4">{component.title}</h2>
 
       {component.details.map((detail, dkey) => (
@@ -13,7 +13,7 @@ const ColumnProject = ({ component }) => {
       ))}
 
       {component.subdetails.map((sd, sdkey) => (
-        <div className="my-2">
+        <div key={sdkey} className="my-2">
           <h4 className="text-lg py-2">{sd.title}</h4>
           <p className="text-base leading-loose">{sd.details}</p>
           <ol className="list-decimal mx-8">
@@ -39,10 +39,10 @@ const ColumnProject = ({ component }) => {
       )}
 
       {component.link && (
-        <div className="flex flex-col justify-center items-center py-4">
+        <div className="flex flex-col justify-center items-center mt-8 mb-12">
           <a
             href={component.link}
-            className="bg-primary-800 text-white hover:shadow-2xl cursor-pointer p-2 sm:w-1/3 w-1/2 text-center rounded-full hover:bg-secondary-700"
+            className="bg-primary-800 text-white hover:shadow-2xl cursor-pointer p-2 sm:w-1/3 w-2/3 text-center rounded-full hover:bg-secondary-700"
           >
             {"Explore the " + component.title}
           </a>
