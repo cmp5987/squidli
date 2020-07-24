@@ -19,7 +19,7 @@ const HomePage = () => {
       <HexIntro />
       <div className="">
         <div className="my-24 bg-gray-200 py-16">
-          <div className="bg-primary-800 text-white md:text-3xl text-xl p-4 rounded-r-full font-mono md:w-4/12 w-8/12 my-12">
+          <div className="bg-primary-800 text-white md:text-3xl text-xl p-4 rounded-r-full font-mono md:w-4/12 w-11/12 my-12">
             <h1 className="ml-12">My Skills</h1>
           </div>
           <div className="flex sm:flex-row flex-col justify-around my-20 text-gray-800">
@@ -30,7 +30,7 @@ const HomePage = () => {
         </div>
 
         <div className="">
-          <div className="bg-primary-700 text-white md:text-3xl text-xl p-4 rounded-r-full font-mono md:w-4/12 w-8/12 my-12">
+          <div className="bg-primary-700 text-white md:text-3xl text-xl p-4 rounded-r-full font-mono md:w-4/12 w-11/12 my-12">
             <h1 className="ml-12">Recent Projects</h1>
           </div>
           <div className="flex flex-row lg:mx-32 sm:mx-12 mx-4 flex-wrap text-gray-800">
@@ -48,7 +48,7 @@ const HomePage = () => {
         </div>
 
         <div className="mt-24 bg-gray-200 py-16">
-          <div className="bg-primary-600 text-white md:text-3xl text-xl p-4 rounded-r-full font-mono md:w-4/12 w-8/12 my-12">
+          <div className="bg-primary-600 text-white md:text-3xl text-xl p-4 rounded-r-full font-mono md:w-4/12 w-11/12 my-12">
             <h1 className="ml-12">Experience</h1>
           </div>
           <div className="lg:mx-64 sm:mx-12 mx-4">
