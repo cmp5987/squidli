@@ -8,7 +8,7 @@ const Slideshow = ({ images = [] }) => {
     <Carousel className="">
       {images.map((image, key) => (
         <div>
-          <img className="" src={"/images/" + image} />
+          <img className="" src={"./images/" + image} />
         </div>
       ))}
     </Carousel>
