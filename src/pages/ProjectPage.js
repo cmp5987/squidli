@@ -33,6 +33,9 @@ const ProjectPage = ({ match }) => {
             {component.type === "row" && <RowProject component={component} />}
           </div>
         ))}
+
+        <img src="./images/HexIntro.svg" />
+        <img src="https://github.com/cmp5987/squidli/tree/gh-pages/images/HexIntro.svg" />
       </div>
     </div>
   );
