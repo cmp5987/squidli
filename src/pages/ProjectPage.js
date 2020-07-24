@@ -35,7 +35,7 @@ const ProjectPage = ({ match }) => {
         ))}
 
         <img src="./images/HexIntro.svg" />
-        <img src="https://github.com/cmp5987/squidli/tree/gh-pages/images/HexIntro.svg" />
+        <img src="https://raw.githubusercontent.com/cmp5987/squidli/gh-pages/images/HexIntro.svg" />
       </div>
     </div>
   );
