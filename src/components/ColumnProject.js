@@ -28,7 +28,7 @@ const ColumnProject = ({ component }) => {
       )}
       {component.images.length === 1 && (
         <div className="py-8">
-          <img src={"/images/" + component.images} />
+          <img src={"./images/" + component.images} />
         </div>
       )}
 

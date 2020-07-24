@@ -7,7 +7,7 @@ const HexIntro = () => {
         <object
           className="w-full h-auto"
           type="image/svg+xml"
-          data="/images/HexIntro.svg"
+          data="./images/HexIntro.svg"
         >
           Your browser does not support SVG
         </object>

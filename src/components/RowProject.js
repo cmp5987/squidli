@@ -13,7 +13,7 @@ const RowProject = ({ component }) => {
         <div className="flex-shrink-0 sm:32 flex flex-col justify-center items-center m-8">
           <img
             className="rounded sm:w-32 w-0 hidden sm:block"
-            src={"/images/" + component.images[0]}
+            src={"./images/" + component.images[0]}
           />
         </div>
       )}
