@@ -6,7 +6,7 @@ const NavBar = () => (
     <div className="flex flex-row justify-between items-center md:mx-16">
       <div id="site-logo" className="flex flex-row">
         <div id="site-icon" className="md:w-12 md:h-12 w-6 h-6">
-          <img src="/images/SQUIDICON.png"></img>
+          <img src="./images/SQUIDICON.png"></img>
         </div>
         <div
           id="site-name"
