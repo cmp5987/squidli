@@ -1,7 +1,7 @@
 import React from "react";
 
 const NotFoundPage = () => (
-  <div className="h-8/10 min-h-10/12">
+  <div className="my-64">
     <h1>404: Page Not Found</h1>
   </div>
 );

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
@@ -8,6 +8,7 @@ const ProjectCard = ({ project }) => {
         <div className="flex-shrink-0 sm:32 flex flex-col justify-center items-center p-8 bg-gray-100">
           <img
             className="rounded sm:w-32 w-0"
+            alt={"icon for " + project.name}
             src={"/images/" + project.icon}
           />
         </div>
@@ -18,7 +19,10 @@ const ProjectCard = ({ project }) => {
           </p>
           <div className="flex flex-row my-4 font-semibold flex-wrap">
             {project.tags.map((tag, key) => (
-              <div className="mr-2 py-1 px-2 bg-gray-200 rounded-lg" key={key}>
+              <div
+                className="mr-2 py-1 px-2 bg-gray-200 rounded-lg shadow"
+                key={key}
+              >
                 {tag}
               </div>
             ))}

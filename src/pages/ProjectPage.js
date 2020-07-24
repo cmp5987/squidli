@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { projects } from "../components/tempData";
 
 import ColumnProject from "../components/ColumnProject";
-import RowProject from "../components/RowProject";
+import InlineSection from "../components/InlineSection";
 
 const ProjectPage = ({ match }) => {
   const name = match.params.name;
@@ -14,14 +14,21 @@ const ProjectPage = ({ match }) => {
   return (
     <div className="flex flex-row mb-12">
       <div className="xl:mx-64 lg:mx-32 mx-4">
-        <h1 className="text-4xl text-primary-800 font-mono mt-12 font-semibold">
-          {project.title}
-        </h1>
+        <div className=" border-gray-100 border-b-2">
+          <h1 className="text-4xl text-primary-900 font-mono mt-12 font-semibold">
+            {project.title}
+          </h1>
 
-        <div className="flex flex-row flex-wrap mb-12">
-          {project.tags.map((tag, key) => (
-            <div className="mr-4 text-tertiary-700 text-base">{tag}</div>
-          ))}
+          <div className="flex flex-row flex-wrap mt-2 mb-8">
+            {project.tags.map((tag, key) => (
+              <div
+                key={key}
+                className="mr-2 py-1 px-2 bg-gray-200 rounded-lg shadow font-serif"
+              >
+                {tag}
+              </div>
+            ))}
+          </div>
         </div>
 
         {project.components.map((component, ckey) => (
@@ -30,12 +37,11 @@ const ProjectPage = ({ match }) => {
               <ColumnProject component={component} />
             )}
 
-            {component.type === "row" && <RowProject component={component} />}
+            {component.type === "row" && (
+              <InlineSection component={component} />
+            )}
           </div>
         ))}
-
-        <img src="./images/HexIntro.svg" />
-        <img src="https://raw.githubusercontent.com/cmp5987/squidli/gh-pages/images/HexIntro.svg" />
       </div>
     </div>
   );

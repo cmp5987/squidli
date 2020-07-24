@@ -141,4 +141,82 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 1,
+    name: "unburden",
+    title: "unBurden",
+    highlight: true,
+    icon: "unburden-icon.png",
+    tags: ["swift", "figma", "mobile", "ios", "ux", "ui", "firebase"],
+    description:
+      "unBurden hopes to help you simplify planning, packing and camping. A wonderful experience can be ruined by leaving an essential item behind. unBurden will help you plan what necessities to pack and keep track of which have been packed.",
+    components: [
+      {
+        type: "row",
+        title: "Overview",
+        details: [
+          "unBurden hopes to help you simplify planning, packing and camping. A wonderful experience can be ruined by leaving an essential item behind. unBurden will help you plan what necessities to pack and keep track of which have been packed.",
+        ],
+        subdetails: [],
+        images: ["unburden-icon.png"],
+      },
+      {
+        type: "column",
+        title: "Key Features",
+        details: [""],
+        subdetails: [
+          {
+            title: "User Accounts",
+            details:
+              "Provide a Login/Signup page to ensure users have an account where they can access their personal trip data throughout sessions.",
+          },
+          {
+            title: "Plan a Trip",
+            details:
+              "Users can fill out information for their upcoming camping trip for later reference. They also can add items to a list for packing and track what they have already packed.",
+          },
+          {
+            title: "Shared Trips",
+            details:
+              "Multiple Users can view and edit data for a single trip. Individuals will be able to join a trip to share their information.",
+          },
+          {
+            title: "Packing Suggestions",
+            details:
+              "Users will be provided with a list of suggested items to pack. They will be able to filter this list by categories like Hygiene or Tools.",
+          },
+          {
+            title: "Plan Multiple Trips",
+            details:
+              "Users will be able to create more than one trip. They will be able to have more than one current plan and easily navigate between them.",
+          },
+        ],
+        images: ["unburden_tasks.jpg"],
+      },
+      {
+        type: "column",
+        title: "Hi-fi Prototype",
+        details: [
+          "Prior to the Hi-Fidelity Prototype, Market Research was conducted on iOs applications which belonged to the categories of travel and task management. The Hi-Fi prototype focuses on developing the ideas of how to display packed and unpacked items.",
+        ],
+        subdetails: [],
+        link: "https://invis.io/CRW3CH5G2UT",
+        images: [
+          "unburden_hifi_1.svg",
+          "unburden_tabs.svg",
+          "unburden_additem.svg",
+        ],
+      },
+      {
+        type: "column",
+        title: "unBurden Code",
+        details: [
+          "The application for unBurden was made using xCode and Swift, thus native to iOs. With a goal of having multiple trips and shared trips, tracking state throughout the application would had to be planned into the inital designs and backend. The nested usage of navigation controls, tab controls, and story boards meant that this project was hefty to plan outright. In order to plan and try to understand how components would work together, I built out other smaller applications like a Note Taking App to understand how to handle more complex tasks.",
+        ],
+        subdetails: [],
+        link: "https://github.com/cmp5987/unBurden",
+        images: [],
+      },
+    ],
+  },
 ];

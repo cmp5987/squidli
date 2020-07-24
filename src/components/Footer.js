@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Footer = () => (
   <footer className="bg-gray-800">
@@ -11,14 +10,14 @@ const Footer = () => (
         <div className="bg-gray-300 rounded-full pt-2 px-2 pb-1 shadow hover:shadow-2xl mt-8 hover:bg-white">
           <button>
             <a href="https://github.com/cmp5987">
-              <img src="./images/github.png"></img>
+              <img alt="github link" src="/images/github.png"></img>
             </a>
           </button>
         </div>
         <div className="bg-gray-300 rounded-full pt-2 px-2 pb-1 shadow hover:shadow-2xl mt-8 hover:bg-white">
           <button>
             <a href="https://www.linkedin.com/in/catherine-poggioli-122239119/">
-              <img src="./images/linkedin.png"></img>
+              <img alt="linkedin link" src="/images/linkedin.png"></img>
             </a>
           </button>
         </div>

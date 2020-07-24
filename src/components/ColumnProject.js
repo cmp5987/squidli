@@ -7,7 +7,9 @@ const ColumnProject = ({ component }) => {
       <h2 className="text-2xl text-gray-800 mb-4">{component.title}</h2>
 
       {component.details.map((detail, dkey) => (
-        <p className="leading-loose my-4">{detail}</p>
+        <p className="leading-loose my-4" key={dkey}>
+          {detail}
+        </p>
       ))}
 
       {component.subdetails.map((sd, sdkey) => (
@@ -16,7 +18,11 @@ const ColumnProject = ({ component }) => {
           <p className="text-base leading-loose">{sd.details}</p>
           <ol className="list-decimal mx-8">
             {sd.list &&
-              sd.list.map((li, likey) => <li className="my-2">{li}</li>)}
+              sd.list.map((li, likey) => (
+                <li key={likey} className="my-2">
+                  {li}
+                </li>
+              ))}
           </ol>
         </div>
       ))}
@@ -28,7 +34,7 @@ const ColumnProject = ({ component }) => {
       )}
       {component.images.length === 1 && (
         <div className="py-8">
-          <img src={"./images/" + component.images} />
+          <img alt={component.name} src={"/images/" + component.images} />
         </div>
       )}
 

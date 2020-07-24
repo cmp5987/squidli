@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import { Link } from "react-router-dom";
 
 const ProjectList = ({ projects = [] }) => {
   return (
