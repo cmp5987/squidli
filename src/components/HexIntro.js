@@ -34,16 +34,16 @@ const HexIntro = () => {
           ></img>
         </div>
         <div className="ml-12">
-          <h1 className="font-mono text-5xl text-primary-800 font-bold">
+          <h1 className="font-mono text-5xl text-primary-700 font-bold">
             Hello!
           </h1>
           <p className="leading-loose my-4 font-serif text-lg">
             I’m Catie Poggioli, senior at Rochester Institute of Technology
-            majoring in Human Centered Computing and a concentration in Front
+            majoring in Human Centered Computing with a concentration in Front
             End Development and Natural Language Processing.
           </p>
-          <button className="bg-primary-800 text-white hover:shadow-2xl cursor-pointer p-2 px-12 text-center rounded-full hover:bg-secondary-700 my-4 text-base font-mono font-semibold">
-            <a href="/images/Resume_Fall_2020.pdf" download>
+          <button className="bg-primary-800 text-white hover:shadow-2xl cursor-pointer p-2 px-12 text-center rounded-full hover:bg-secondary-700 my-4 text-base font-mono">
+            <a href="/images/Catherine_Poggioli_Resume.pdf" download>
               download resume
             </a>
           </button>
