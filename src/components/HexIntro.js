@@ -25,24 +25,23 @@ const HexIntro = () => {
     </div>
   );
     */
-    <div className="flex flex-row justify-center items-center h-8/10">
-      <div className="flex flex-row mt-8 md:mx-48 sm:mx-24">
-        <div classname="flex-shrink-0 sm:flex flex-col justify-center items-center hidden">
-          <img
-            alt="Three Hexes vertically aligned"
-            src="/images/Three_Hex.svg"
-          ></img>
-        </div>
-        <div className="ml-12">
-          <h1 className="font-mono text-5xl text-primary-700 font-bold">
+    <div className="flex flex-row h-8/10">
+      <div className="flex sm:flex-row flex-col sm:mt-8 lg:mx-48 md:mx-24 sm:mx-12 items-center justify-center">
+        <img
+          className="md:w-1/3 w-1/2 flex-shrink-0"
+          alt="Three Hexes vertically aligned"
+          src="/images/Three_Hex.svg"
+        ></img>
+        <div className="flex flex-col sm:ml-12 justify-center px-4">
+          <h1 className="font-mono sm:text-5xl text-3xl text-primary-700 font-bold">
             Hello!
           </h1>
-          <p className="leading-loose my-4 font-serif text-lg">
+          <p className="leading-loose my-4 font-serif sm:text-lg text-base">
             I’m Catie Poggioli, senior at Rochester Institute of Technology
             majoring in Human Centered Computing with a concentration in Front
             End Development and Natural Language Processing.
           </p>
-          <button className="bg-primary-800 text-white hover:shadow-2xl cursor-pointer p-2 px-12 text-center rounded-full hover:bg-secondary-700 my-4 text-base font-mono">
+          <button className="bg-primary-800 text-white hover:shadow-2xl cursor-pointer p-2 px-12 text-center rounded-full hover:bg-secondary-700 my-4 text-base font-mono lg:w-3/5">
             <a href="/images/Catherine_Poggioli_Resume.pdf" download>
               download resume
             </a>

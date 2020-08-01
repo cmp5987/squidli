@@ -124,7 +124,7 @@ export const projects = [
         type: "column",
         title: "Hi-fi Prototype",
         details: [
-          "This prorotype improved upon the initial low-fedelity prototype with slight changes to the navigation. Additionally, the planned color scheme and some initial designs for the images and icons have been used. The videos shown are examples of the current navigation required to complete the listed tasks used for testing. Shadowing was added as well as color to help signify which objects are interactable.",
+          "This prorotype improved upon the initial low-fedelity prototype with slight changes to the navigation. Additionally, the planned color scheme and some initial designs for the images and icons have been used. The images shown are examples of the current navigation required to complete the listed tasks used for testing. Shadowing was added as well as color to help signify which objects are interactable.",
         ],
         subdetails: [],
         link: "https://invis.io/7GX1S23A2QH",
