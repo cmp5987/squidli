@@ -3,10 +3,10 @@ import Fade from 'react-reveal/Fade';
 
 export default function IntroBanner(){
     return(
-        <div className="flex flex-col text-primary-900 min-h-screen">
+        <div className="flex flex-col text-primary-900 h-8/10">
             <div className="w-full flex-1 flex flex-col justify-center">
-                <div className="grid grid-cols-12 w-full gap-8">
-                    <div className="col-start-2 col-span-11 flex flex-row flex-wrap text-4xl font-bold gap-4">
+                <div className="grid grid-cols-12 gap-8">
+                    <div className="col-start-2 col-span-10 flex flex-row flex-wrap text-4xl font-bold gap-4">
                         <h1 className="text-secondary-900">
                             Hello! I'm
                         </h1>
@@ -14,11 +14,11 @@ export default function IntroBanner(){
                             Catie Poggioli
                         </h1>
                     </div>
-                    <p className="text-2xl col-start-2 col-span-10">
+                    <p className="md:text-2xl text-xl  col-start-2 col-span-10">
                             I develop user-friendly interfaces to simplify complex workflows.
                     </p>
                     <Fade left cascade>
-                        <div className="col-start-2 col-span-7 grid md:grid-cols-3 grid-cols-1 md:gap-12 gap-4">
+                        <div className="col-start-2 col-span-10 grid md:grid-cols-3 grid-cols-1 md:gap-12 gap-4">
                             <div className="flex flex-col flex-wrap border-t-2 border-gray-300 py-2">
                                 <h4 className=" font-bold">+3 Years of Experience</h4>
                                 <p className="text-gray-600">

@@ -3,8 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 export default function ExperienceSection(){
     return(
-            <div className="flex flex-col min-h-screen w-full justify-center py-20">      
-                <div className="grid grid-cols-12 gap-12 w-full">
+            <div className="grid grid-cols-12 min-h-screen py-20 gap-8">      
                     <div className=" col-start-2 col-span-10 flex flex-row gap-4 items-center flex-wrap">
                         <img src="/images/HexIcon.svg" alt="Hexagon Icon" className="w-12 h-12"/>
                         <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">Experience</h2>
@@ -16,7 +15,7 @@ export default function ExperienceSection(){
                                 <h4 className=" italic text-gray-600">
                                     May 2020 - Current
                                 </h4>
-                                <ol className="flex flex-col gap-4 text-sm px-4">
+                                <ol className="flex flex-col gap-4 text-sm">
                                     <li>Lead a team of twelve developers in implementing designs that 
                                     reduce user frustration and improve user learning and discovery.</li>
                                     <li>
@@ -51,13 +50,13 @@ export default function ExperienceSection(){
                         </div>  
                     </Fade>
                     <Fade right>
-                        <div className="md:col-start-3 md:col-span-8 col-start-2 col-span-10">
+                        <div className="md:col-start-3 md:col-span-8 col-start-2 col-span-9">
                             <div className="flex flex-col gap-4">
                                 <h3 className="md:text-2xl text-lg text-primary-700 font-bold">Galahad Group // Software Engineer</h3>
                                 <h4 className=" italic text-gray-600">
                                     January 2019 - January 2020
                                 </h4>
-                                <ol className="flex flex-col gap-4 text-sm px-4">
+                                <ol className="flex flex-col gap-4 text-sm">
                                     <li>Assisted in the research and development of novel ways to 
                                     improve consumer workflows with NLP technologies. </li>
                                     <li>
@@ -73,13 +72,13 @@ export default function ExperienceSection(){
                         </div>  
                     </Fade>  
                     <Fade left>
-                        <div className="md:col-start-3 md:col-span-8 col-start-2 col-span-10">
+                        <div className="md:col-start-3 md:col-span-8 col-start-2 col-span-9">
                             <div className="flex flex-col gap-4">
                                 <h3 className="md:text-2xl text-lg text-primary-700 font-bold">Thomson Reuters // Software Engineer Co-Op</h3>
                                 <h4 className=" italic text-gray-600">
                                     May 2018 - January 2019
                                 </h4>
-                                <ol className="flex flex-col gap-4 text-sm px-4">
+                                <ol className="flex flex-col gap-4 text-sm">
                                     <li>Increased company productivity and sprint planning by creating
                                     internal planning dashboard using <span className="font-bold">JQuery, Angular and Node.js</span>.</li>
                                     <li>Collaborated with a small team to quickly execute new features
@@ -92,14 +91,13 @@ export default function ExperienceSection(){
                             </div>
                         </div> 
                     </Fade>   
-                    <div className="col-span-11 flex flex-row justify-center">
+                    {/* <div className="col-span-10 flex flex-row justify-center">
                         <button className="bg-primary-700 text-white hover:shadow-2xl cursor-pointer py-4 px-12 text-center rounded-lg hover:bg-secondary-700 my-4 font-semibold text-lg">
                             <a href="/images/catherine_poggioli_resume_2022.pdf" download>
                                 Download Resume (pdf)
                             </a>
                         </button>
-                    </div>
-                </div>
+                    </div> */}
             </div>
     )
 }

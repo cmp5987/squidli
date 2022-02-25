@@ -5,13 +5,13 @@ import { BadgeCheckIcon } from "@heroicons/react/solid";
 export default function SkillsSection(){
     return(
         <div className="flex flex-col min-h-screen w-full justify-center bg-gray-200 py-20">         
-            <div className="grid grid-cols-12 gap-12 w-full">
-                <div className=" col-start-2 col-span-10 flex flex-row gap-4 items-center flex-wrap">
+            <div className="grid grid-cols-12">
+                <div className=" col-start-2 col-span-10 flex flex-row gap-4 items-center flex-wrap pb-12">
                     <img src="/images/HexIcon.svg" alt="Hexagon Icon" className="w-12 h-12"/>
                     <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">Skills & Technologies</h2>
                 </div>
                 <Fade top cascade>
-                <div className=" col-start-2 col-span-10 grid md:grid-cols-3 grid-cols-1 gap-12">
+                <div className=" col-start-2 col-span-9 grid md:grid-cols-3 grid-cols-1 gap-12">
                     <div className="flex flex-col gap-6">
                         <h3 className="text-lg font-bold">UX Design</h3>
                         <p>
