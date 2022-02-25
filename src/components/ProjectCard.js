@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
             src={"/images/" + project.icon}
           />
         </div>
-        <div className="mx-8 font-serif">
+        <div className="mx-8">
           <h3 className="text-xl my-4">{project.title}</h3>
           <p className="leading-loose">
             {project.description.substring(0, 200)}...

@@ -3,7 +3,7 @@ import Slideshow from "../components/Slideshow";
 
 const ColumnProject = ({ component }) => {
   return (
-    <div className="font-serif mb-12">
+    <div className="mb-12">
       <h2 className="text-2xl text-gray-800 mb-4">{component.title}</h2>
 
       {component.details.map((detail, dkey) => (
@@ -42,7 +42,7 @@ const ColumnProject = ({ component }) => {
         <div className="flex flex-col justify-center items-center mt-8 mb-12">
           <a
             href={component.link}
-            className="bg-primary-800 text-white hover:shadow-2xl cursor-pointer p-2 sm:w-1/3 w-2/3 text-center rounded-full hover:bg-secondary-700"
+            className="bg-primary-800 text-white hover:shadow-2xl cursor-pointer py-4 px-12 sm:w-1/3 w-2/3 text-center rounded-full hover:bg-secondary-700 text-lg font-bold"
           >
             {"Explore the " + component.title}
           </a>
