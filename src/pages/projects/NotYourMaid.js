@@ -159,7 +159,7 @@ const NotYourMaid = () => {
               </div>
             </section>
             {/* Section 4 row 2*/}
-            <section className="flex flex-col gap-6 col-span-2 justify-center">
+            <section className="flex flex-col col-span-2 justify-center">
                 <Slideshow 
                   images={[
                     "/NotYourMaid/notyourmaid_persona3.jpg",
@@ -218,7 +218,7 @@ const NotYourMaid = () => {
         <div className="max-w-full overflow-hidden grid grid-cols-12 py-12 bg-gray-200">
           <div className="col-start-2 col-span-10 flex flex-row gap-4 items-center flex-wrap py-12">
               <img src="/images/HexIcon.svg" alt="Hexagon Icon" className="w-12 h-12"/>
-              <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">Low-Fidelity Prototype</h2>
+              <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">Low-Fi Prototype</h2>
           </div>
           <section className="col-start-2 col-span-10 flex flex-col gap-4">
             <div className="flex flex-col gap-2">
@@ -246,7 +246,7 @@ const NotYourMaid = () => {
         <div className="max-w-full overflow-hidden grid grid-cols-12 py-12">
           <div className="col-start-2 col-span-10 flex flex-row gap-4 items-center flex-wrap py-12">
               <img src="/images/HexIcon.svg" alt="Hexagon Icon" className="w-12 h-12"/>
-              <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">Low-Fidelity Usability Testing</h2>
+              <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">Low-Fi Testing</h2>
           </div>
           <div className="col-start-2 col-span-10 grid grid-cols-2 md:grid-cols-3 gap-12">
             <section className="flex flex-col gap-6 col-span-2">
@@ -286,7 +286,7 @@ const NotYourMaid = () => {
         <div className="max-w-full overflow-hidden grid grid-cols-12 py-12 bg-gray-200">
           <div className="col-start-2 col-span-10 flex flex-row gap-4 items-center flex-wrap py-12">
               <img src="/images/HexIcon.svg" alt="Hexagon Icon" className="w-12 h-12"/>
-              <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">High-Fidelity Prototype</h2>
+              <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">High-Fi Prototype</h2>
           </div>
           <section className="col-start-2 col-span-10 flex flex-col gap-4">
             <div className="flex flex-col gap-2">
@@ -314,7 +314,7 @@ const NotYourMaid = () => {
         <div className="max-w-full overflow-hidden grid grid-cols-12 py-12">
           <div className="col-start-2 col-span-10 flex flex-row gap-4 items-center flex-wrap py-12">
               <img src="/images/HexIcon.svg" alt="Hexagon Icon" className="w-12 h-12"/>
-              <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">Reflections</h2>
+              <h2 className="md:text-4xl text-2xl text-primary-700 font-semibold">My Reflections</h2>
           </div>
           <div className="col-start-2 col-span-10 grid grid-cols-2 md:grid-cols-3 gap-12">
             <section className="flex flex-col items-center justify-center col-span-2 md:col-span-1">
