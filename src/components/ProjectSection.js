@@ -86,7 +86,7 @@ export default function ProjectSection(){
                                 </div>
                                 <div className="flex flex-col md:items-start items-center">
                                     <button className="bg-primary-700 text-white hover:shadow-2xl cursor-pointer py-4 px-12 text-center rounded-lg hover:bg-secondary-700 my-4 font-semibold text-lg">
-                                        <Link to="/project/not-your-maid">
+                                        <Link to="/projects/NotYourMaid">
                                             View Case Study
                                         </Link>
                                     </button>

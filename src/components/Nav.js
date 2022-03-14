@@ -13,7 +13,7 @@ export default function Nav(){
                         </div>
                     </Link>
                     <h4 className="md:text-xl text-gray-600 text-md">
-                        <Link to="/project-list">Projects</Link>
+                        <Link to="/">Home</Link>
                     </h4>
                 </div>
             </div>

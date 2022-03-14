@@ -8,16 +8,18 @@ import NotFoundPage from "./pages/FileNotFound";
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
 import NavFooter from "./components/NavFooter";
+import NotYourMaid from "./pages/projects/NotYourMaid";
 
 class App extends Component {
   render() {
     return (
       <Router>
-          <div  className="100vw m-0 p-0">
+          <div>
             <Nav/>
             <Switch>
               <Route path="/" component={Home} exact />
               <Route path="/project-list" component={ProjectListPage} />
+              <Route path="/projects/NotYourMaid" component={NotYourMaid} />
               <Route path="/project/:name" component={ProjectPage} />
               <Route component={NotFoundPage} />
             </Switch>
