@@ -29,18 +29,18 @@ export default function ProjectSection(){
                                         Swift
                                     </div>
                                     <div className="border-2 border-gray-500 py-1 px-4 rounded-full text-gray-900">
-                                        Mobile
+                                        UX / UI
                                     </div>
                                     <div className="border-2 border-gray-500 py-1 px-4 rounded-full text-gray-900">
-                                        UX / UI
+                                       Market Research
                                     </div>
                                     <div className="border-2 border-gray-500 py-1 px-4 rounded-full text-gray-900">
                                         Firebase
                                     </div>
                                 </div>
                                 <div className="flex flex-col md:items-start items-center">
-                                    <button className="bg-primary-700 text-white hover:shadow-2xl cursor-pointer py-4 px-12 text-center rounded-lg hover:bg-secondary-700 my-4 font-semibold text-lg">
-                                        <Link to="/project/unburden">
+                                    <button onclick="location.href='/projects/UnBurden'" className="bg-primary-700 text-white hover:shadow-2xl cursor-pointer py-4 px-12 text-center rounded-lg hover:bg-secondary-700 my-4 font-semibold text-lg">
+                                        <Link to="/projects/UnBurden">
                                             View Case Study
                                         </Link>
                                     </button>
@@ -65,9 +65,6 @@ export default function ProjectSection(){
                                     <div className=" border-2 border-gray-200 py-1 px-4 rounded-full text-gray-200">
                                         Figma
                                     </div>
-                                    <div className=" border-2 border-gray-200 py-1 px-4 rounded-full text-gray-200">
-                                        Mobile
-                                    </div>
                                     <div className="border-2 border-gray-200 py-1 px-4 rounded-full text-gray-200">
                                         UX / UI 
                                     </div>
@@ -85,7 +82,7 @@ export default function ProjectSection(){
                                     </div>
                                 </div>
                                 <div className="flex flex-col md:items-start items-center">
-                                    <button className="bg-primary-700 text-white hover:shadow-2xl cursor-pointer py-4 px-12 text-center rounded-lg hover:bg-secondary-700 my-4 font-semibold text-lg">
+                                    <button onclick="location.href='/projects/NotYourMaid'" className="bg-primary-700 text-white hover:shadow-2xl cursor-pointer py-4 px-12 text-center rounded-lg hover:bg-secondary-700 my-4 font-semibold text-lg">
                                         <Link to="/projects/NotYourMaid">
                                             View Case Study
                                         </Link>
