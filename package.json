@@ -9,7 +9,7 @@
     "react-responsive-carousel": "^3.2.9",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "typeface-abhaya-libre": "^0.0.72",
     "typeface-aldrich": "^0.0.72"
   },
