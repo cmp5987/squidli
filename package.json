@@ -11,12 +11,13 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.0.1",
     "typeface-abhaya-libre": "^0.0.72",
-    "typeface-aldrich": "^0.0.72"
+    "typeface-aldrich": "^0.0.72",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
-    "start": "npm run build:style && react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run build:style && react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

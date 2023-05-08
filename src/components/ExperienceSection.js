@@ -11,9 +11,39 @@ export default function ExperienceSection(){
                     <Fade left>
                         <div className="md:col-start-3 md:col-span-8 col-start-2 col-span-10">
                             <div className="flex flex-col gap-4">
+                                <h3 className="md:text-2xl text-lg text-primary-700 font-bold">New Relic // Full Stack Engineer</h3>
+                                <h4 className=" italic text-gray-600">
+                                    May 2022 - Current
+                                </h4>
+                                <ol className="flex flex-col gap-4 text-sm">
+                                    <li>
+                                        Leads the design and development of the most intricate front-end features for <a className="underline font-bold" href="https://newrelic.com/platform/vulnerability-management">New Relic's Vulnerability Management product</a>.
+                                    </li>
+                                    <li>
+                                        Guided product from early development stages to launch where we saw a <span className="font-bold">700% increase in user acquisition</span> beyond our target goal.
+                                    </li>
+                                    <li>
+                                        Ensures the quality and functionality of the front-end codebase by conducting thorough code reviews, facilitating peer programming, and guiding feature implementation.
+                                    </li>
+                                    <li>
+                                        Identifies gaps in user experience and developed solutions by conducting iterative user testing with the sales team, security engineers, developers, security managers.
+                                    </li>
+                                    <li>
+                                        Reduces technical complexity and ambiguity of features by writing detailed engineering plans, designing high fidelity prototypes in <span className="font-bold">Figma</span>, and by developing reusable components with <span className="font-bold">React, Typescript, SCSS, GraphQL, and Jest</span>.
+                                    </li>
+                                    <li>
+                                        Works to deeply understand the Vulnerability Management user base by attending security conferences <span className="font-bold">(Defcon, Shmoocon)</span> and helping run external security training.
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>  
+                    </Fade>
+                    <Fade right>
+                        <div className="md:col-start-3 md:col-span-8 col-start-2 col-span-10">
+                            <div className="flex flex-col gap-4">
                                 <h3 className="md:text-2xl text-lg text-primary-700 font-bold">Expedition Technology // User Experience Specialist</h3>
                                 <h4 className=" italic text-gray-600">
-                                    May 2020 - Current
+                                    May 2020 - May 2022
                                 </h4>
                                 <ol className="flex flex-col gap-4 text-sm">
                                     <li>Lead a team of twelve developers in implementing designs that 
@@ -49,7 +79,7 @@ export default function ExperienceSection(){
                             </div>
                         </div>  
                     </Fade>
-                    <Fade right>
+                    <Fade left>
                         <div className="md:col-start-3 md:col-span-8 col-start-2 col-span-9">
                             <div className="flex flex-col gap-4">
                                 <h3 className="md:text-2xl text-lg text-primary-700 font-bold">Galahad Group // Software Engineer</h3>
@@ -71,7 +101,7 @@ export default function ExperienceSection(){
                             </div>
                         </div>  
                     </Fade>  
-                    <Fade left>
+                    <Fade right>
                         <div className="md:col-start-3 md:col-span-8 col-start-2 col-span-9">
                             <div className="flex flex-col gap-4">
                                 <h3 className="md:text-2xl text-lg text-primary-700 font-bold">Thomson Reuters // Software Engineer Co-Op</h3>

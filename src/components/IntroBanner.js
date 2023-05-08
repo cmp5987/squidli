@@ -20,15 +20,15 @@ export default function IntroBanner(){
                     <Fade left cascade>
                         <div className="col-start-2 col-span-10 grid md:grid-cols-3 grid-cols-1 md:gap-12 gap-4">
                             <div className="flex flex-col flex-wrap border-t-2 border-gray-300 py-2">
-                                <h4 className=" font-bold">+3 Years of Experience</h4>
+                                <h4 className=" font-bold">5 Years of Experience</h4>
                                 <p className="text-gray-600">
-                                    Guiding teams in applying ux concepts and front-end developing.
+                                    Applying ux concepts and developing awesome products
                                 </p>
                             </div>
                             <div className="flex flex-col flex-wrap border-t-2 border-gray-300 py-2">
-                                <h4 className=" font-bold">User Experience Specialist</h4>
+                                <h4 className=" font-bold">Full stack developer</h4>
                                 <p className="text-gray-600">
-                                    at Expedition Technolgy Inc.
+                                    at New Relic.
                                 </p>
                             </div>
                             <div className="flex flex-col flex-wrap border-t-2 border-gray-300 py-2">
