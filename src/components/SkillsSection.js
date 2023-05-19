@@ -13,6 +13,32 @@ export default function SkillsSection(){
                 <Fade top cascade>
                 <div className=" col-start-2 col-span-9 grid md:grid-cols-3 grid-cols-1 gap-12">
                     <div className="flex flex-col gap-6">
+                        <h3 className="text-lg font-bold">Front End Development</h3>
+                        <p>
+                            Putting concepts into code to transition ideas into usable products.
+                        </p>
+                        <div className="flex flex-col gap-2">
+                            <div className="bg-gray-300 rounded flex p-4 h-full items-center">
+                                <BadgeCheckIcon className="text-primary-700 w-6 h-6 flex-shrink-0 mr-4" />
+                                <span className="title-font font-medium text-gray-900">
+                                    React / Flutter
+                                </span>
+                            </div>
+                            <div className="bg-gray-300 rounded flex p-4 h-full items-center">
+                                <BadgeCheckIcon className="text-primary-700 w-6 h-6 flex-shrink-0 mr-4" />
+                                <span className="title-font font-medium text-gray-900">
+                                    Javascript / Typescript / JQuery
+                                </span>
+                            </div>
+                            <div className="bg-gray-300 rounded flex p-4 h-full items-center">
+                                <BadgeCheckIcon className="text-primary-700 w-6 h-6 flex-shrink-0 mr-4" />
+                                <span className="title-font font-medium text-gray-900">
+                                    HTML5 / CSS3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-col gap-6">
                         <h3 className="text-lg font-bold">UX Design</h3>
                         <p>
                             Advocating and defining the way the end user will interact with the product.
@@ -60,32 +86,6 @@ export default function SkillsSection(){
                                 <BadgeCheckIcon className="text-primary-700 w-6 h-6 flex-shrink-0 mr-4" />
                                 <span className="title-font font-medium text-gray-900">
                                     Figma / Sketch
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-6">
-                        <h3 className="text-lg font-bold">Front End Development</h3>
-                        <p>
-                            Putting concepts into code to transition ideas into usable products.
-                        </p>
-                        <div className="flex flex-col gap-2">
-                            <div className="bg-gray-300 rounded flex p-4 h-full items-center">
-                                <BadgeCheckIcon className="text-primary-700 w-6 h-6 flex-shrink-0 mr-4" />
-                                <span className="title-font font-medium text-gray-900">
-                                    React / Flutter
-                                </span>
-                            </div>
-                            <div className="bg-gray-300 rounded flex p-4 h-full items-center">
-                                <BadgeCheckIcon className="text-primary-700 w-6 h-6 flex-shrink-0 mr-4" />
-                                <span className="title-font font-medium text-gray-900">
-                                    Javascript / JQuery
-                                </span>
-                            </div>
-                            <div className="bg-gray-300 rounded flex p-4 h-full items-center">
-                                <BadgeCheckIcon className="text-primary-700 w-6 h-6 flex-shrink-0 mr-4" />
-                                <span className="title-font font-medium text-gray-900">
-                                    HTML5 / CSS3
                                 </span>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ export default function SkillsSection(){
                             <div className="bg-gray-300 rounded flex p-4 h-full items-center">
                                 <BadgeCheckIcon className="text-primary-700 w-6 h-6 flex-shrink-0 mr-4" />
                                 <span className="title-font font-medium text-gray-900">
-                                    Flask / Python
+                                    Java / Python 
                                 </span>
                             </div>
                             <div className="bg-gray-300 rounded flex p-4 h-full items-center">
@@ -151,7 +151,7 @@ export default function SkillsSection(){
                             <div className="bg-gray-300 rounded flex p-4 h-full items-center">
                                 <BadgeCheckIcon className="text-primary-700 w-6 h-6 flex-shrink-0 mr-4" />
                                 <span className="title-font font-medium text-gray-900">
-                                    MongoDB / PostgreSQL / Firebase
+                                    GraphQL / MongoDB / PostgreSQL 
                                 </span>
                             </div>
                         </div>
